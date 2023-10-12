@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #444;
+  padding: 1rem;
+  width: 100%;
+}
+
+.App-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #333;
+}
+
+table {
+  background-color: #444;
+  color: white;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #222;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #555;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #444;
+}
